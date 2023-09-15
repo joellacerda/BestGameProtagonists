@@ -12,7 +12,7 @@ struct VoteButtonView: View {
     let charName: String
     let textColor: Color?
     
-    init(charName: String, textColor: Color?) {
+    init(_ charName: String, textColor: Color?) {
         self.charName = charName
         self.textColor = textColor
     }
@@ -34,6 +34,6 @@ struct VoteButtonView: View {
 
 struct VoteButtonView_Preview: PreviewProvider {
     static var previews: some View {
-        VoteButtonView(charName: "Amaterasu", textColor: .orange)
+        VoteButtonView("Amaterasu", textColor: .orange)
     }
 }

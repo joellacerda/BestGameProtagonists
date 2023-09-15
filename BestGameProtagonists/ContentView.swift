@@ -27,15 +27,15 @@ struct ContentView: View {
                 
                     VStack {
                         CharImageView("okami", width: 200, height: 300)
-                        VoteButtonView(charName: "Amaterasu", textColor: .red)
+                        VoteButtonView("Amaterasu", textColor: .red)
                     }
                 
                     VStack {
                         CharImageView("link", width: 150, height: 300)
-                        VoteButtonView(charName: "Link", textColor: .red)
+                        VoteButtonView("Link", textColor: .red)
                     }
                     .padding(.horizontal, 20)
-                }
+                    }
                 
                     Button {
                         
