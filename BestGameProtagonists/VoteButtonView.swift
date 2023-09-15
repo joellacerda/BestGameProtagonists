@@ -32,8 +32,6 @@ struct VoteButtonView: View {
     }
 }
 
-struct VoteButtonView_Preview: PreviewProvider {
-    static var previews: some View {
-        VoteButtonView("Amaterasu", textColor: .orange)
-    }
+#Preview {
+    VoteButtonView("Amaterasu", textColor: .orange)
 }

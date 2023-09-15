@@ -28,8 +28,6 @@ struct CharImageView: View {
     }
 }
 
-struct CharImageView_Preview: PreviewProvider {
-    static var previews: some View {
-        CharImageView("okami", width: 200, height: 300)
-    }
+#Preview {
+    CharImageView("okami", width: 200, height: 300)
 }
