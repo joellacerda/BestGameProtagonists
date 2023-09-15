@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C71FC182AB4CA9B00321DED /* CharImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71FC172AB4CA9B00321DED /* CharImageView.swift */; };
+		3C71FC1A2AB4CC3900321DED /* VoteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71FC192AB4CC3900321DED /* VoteButtonView.swift */; };
 		3CC646B72AB0D785007F0848 /* BestGameProtagonistsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC646B62AB0D785007F0848 /* BestGameProtagonistsApp.swift */; };
 		3CC646B92AB0D785007F0848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC646B82AB0D785007F0848 /* ContentView.swift */; };
 		3CC646BB2AB0D788007F0848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC646BA2AB0D788007F0848 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C71FC172AB4CA9B00321DED /* CharImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharImageView.swift; sourceTree = "<group>"; };
+		3C71FC192AB4CC3900321DED /* VoteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteButtonView.swift; sourceTree = "<group>"; };
 		3CC646B32AB0D785007F0848 /* BestGameProtagonists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestGameProtagonists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC646B62AB0D785007F0848 /* BestGameProtagonistsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestGameProtagonistsApp.swift; sourceTree = "<group>"; };
 		3CC646B82AB0D785007F0848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				3CC646B82AB0D785007F0848 /* ContentView.swift */,
 				3CC646BA2AB0D788007F0848 /* Assets.xcassets */,
 				3CC646BC2AB0D788007F0848 /* Preview Content */,
+				3C71FC172AB4CA9B00321DED /* CharImageView.swift */,
+				3C71FC192AB4CC3900321DED /* VoteButtonView.swift */,
 			);
 			path = BestGameProtagonists;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C71FC1A2AB4CC3900321DED /* VoteButtonView.swift in Sources */,
 				3CC646B92AB0D785007F0848 /* ContentView.swift in Sources */,
 				3CC646B72AB0D785007F0848 /* BestGameProtagonistsApp.swift in Sources */,
+				3C71FC182AB4CA9B00321DED /* CharImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
